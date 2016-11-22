@@ -16,9 +16,9 @@
 
 	<dependencies>
 		<dependency>
-		    <groupId>rxtxcomm</groupId>
-		    <artifactId>rxtxcomm</artifactId>
-		    <version>1.0.0</version>
+			<groupId>org.rxtx</groupId>
+			<artifactId>rxtx</artifactId>
+			<version>2.1.7</version>
 		</dependency>
 		<dependency>
 		    <groupId>org.scream3r</groupId>
