@@ -118,8 +118,8 @@ public class TMP006 {
 		// (quote)
 		// The Bus Pirate user terminal could be stuck in a configuration menu 
 		// when your program attempts to enter binary mode. One way to ensure 
-		// that you’re at the command line is to send <enter> at least 10 times, 
-		// and then send ‘#’ to reset. Next, send 0×00 to the command line 20+ 
+		// that you're at the command line is to send <enter> at least 10 times, 
+		// and then send '#' to reset. Next, send 0×00 to the command line 20+ 
 		// times until you get the BBIOx version string.
 		// (end quote)
 
@@ -173,7 +173,7 @@ public class TMP006 {
 	 * @throws IOException
 	 */
 	public void powerOn() throws IOException {
-		// 0100wxyz – Configure peripherals w=power, x=pullups, y=AUX, z=CS
+		// 0100wxyz Configure peripherals w=power, x=pullups, y=AUX, z=CS
 		// Write 0b0100 1000
 		System.err.println("POWER ON");
 		sioOut.write(0x48);
